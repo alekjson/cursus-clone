@@ -1,0 +1,242 @@
+.All-Instructor-grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 20px; 
+}
+
+.All-Instructor-grid-container li {
+  list-style: none;
+}
+
+.All-Instructor-grid-item {
+  background-color: #fff; 
+  padding: 20px 0px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  min-width: 200px; 
+  min-height: 300px; 
+}
+
+.All-Instructor-fcrse_1 {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.All-Instructor-tutor_img {
+  width: 100%;
+  text-align: center;
+}
+
+.All-Instructor-tutor_img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.All-Instructor-tutor_content_dt {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.All-Instructor-tutor150 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.All-Instructor-tutor_name {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  text-align: center;
+  position: relative;
+}
+
+.All-Instructor-mef78 i {
+  font-size: 18px;
+  line-height: 15px;
+  color: #1da1f2;
+}
+
+.All-Instructor-tutor_cate {
+  font-size: 13px;
+  color: #686f7a;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin-bottom: 17px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.All-Instructor-tut1250 {
+  font-size: 12px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  color: #686f7a;
+  text-align: center;
+  display: block;
+}
+
+.All-Instructor-tut1250 .vdt15::after {
+  content: '•';
+  margin: 0 4px;
+}
+
+.All-Instructor-tut1250 .vdt15:last-child::after {
+  display: none;
+  content: '';
+}
+
+.All-Instructor-vdt15 {
+  margin-right: 10px; /* Khoảng cách giữa các thông tin */
+}
+
+
+.srch_explore {
+  margin-bottom: 20px;
+
+  padding: 11px;
+  width: 100%;
+  background: #fff !important;
+  border: 1px solid #e5e5e5 !important;
+  color: #333 !important;
+  box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.02) !important;
+}
+
+.srch_explore:focus {
+  border: 1px solid #333 !important;	
+box-shadow: none !important;
+}
+
+.search-icon-allInstructor {
+  position: absolute;
+  /* display: flex; */
+  width: 18px;
+  height: 16px;
+  margin: 0 8px;
+  margin-top: -16px;
+  padding: -10px;
+  /* margin-right: 10px; */
+}
+
+.All-social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.All-social-icons .AllIn_icon {
+  display: inline-block !important;
+  margin-right: 5px;
+  vertical-align: middle;
+  margin-bottom: 0 !important;
+}
+
+.All-social-icons .AllIn_icon img {
+  width: 20px;
+  height: 18px;
+}
+
+.home-instructor-profile .All-social-icons .AllIn_icon img {
+  width: 20px;
+  height: 18px;
+  top: -8px;
+  position: relative;
+}
+
+.All-social-icons .sc-fb,
+.All-social-icons .sc-tw,
+.All-social-icons .sc-ln,
+.All-social-icons .sc-yt {
+  font-size: 20px;
+  float: none;
+  width: 35px;
+  height: 36px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  padding: 0px 0;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.sc-fb {
+  background: #3b5998;
+}
+
+.sc-tw {
+  background: #1da1f2;
+}
+
+.sc-ln {
+  background: #8d6cab;
+}
+
+.sc-yt {
+  background: #ff0000;
+}
+
+.lds-facebook {
+  /* change color here */
+  color: #46dff0;
+  
+}
+.lds-facebook,
+.lds-facebook div {
+  box-sizing: border-box;
+}
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: currentColor;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0s;
+}
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+  50%, 100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+.Allinstructor-main-loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
